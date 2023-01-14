@@ -33,7 +33,7 @@
 	height: 100%;
 	width: 100%;
 	display: block;
-	object-fit: center;
+	object-fit: cover;
 	object-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -69,7 +69,6 @@
 .card__social-link a {
 	color: #1e1e1e;
 	font-size: 25px;
-	text-decoration: none;
 	transition: .2s ease-in-out;
 }
 .card__social-link--ln {
