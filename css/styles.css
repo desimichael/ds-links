@@ -1,5 +1,5 @@
 .content-area {
-	background: linear-gradient(to right bottom, #e0ffff, #c2e0e0, #a4c1c1, #88a4a4, #6c8787, #668181, #617c7c, #5b7676, #698484, #779293, #86a1a2, #95b0b1);
+	 background-image: linear-gradient(to right bottom, #41c0d5, #38bbd7, #33b5d9, #32b0da, #35aadb);
 	width: 100%;
 	height: 100vh;
 	display: flex;
@@ -11,21 +11,25 @@
 	width: 350px;
 	background: #f7f7f7;
 	border-radius: 5px;
-	padding: 20px;
+	padding: 15px 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	-webkit-box-shadow: 5px 5px 13px 0px rgba(0,0,0,0.67); 
 	box-shadow: 5px 5px 13px 0px rgba(0,0,0,0.67);
 }
-.card .card__user-img {
+.card__user-img {
 	height: 70px;
 	width: 70px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 15px;
 	overflow: hidden;
 	border: 2px solid #5b7676;
 	border-radius: 50%;
 }
-.card .card__user-img img {
+.card__user-img img {
 	height: 100%;
 	width: 100%;
 	display: block;
@@ -33,4 +37,122 @@
 	object-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+.card__title {
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+.card__subtitle {
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+.card__social-group {
+	width: 100%;
+	padding: 20px 10px;
+	display: flex;
+	justify-content: space-around;
+}
+.card__social-link {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #5b7676;
+	background: #f7f7f7;
+	cursor: pointer;
+	transition: .2s ease-in-out;
+}
+.card__social-link a {
+	color: #1e1e1e;
+	font-size: 25px;
+	text-decoration: none;
+	transition: .2s ease-in-out;
+}
+.card__social-link--ln {
+	border: 1px solid #0e76a8;
+}
+.card__social-link--ln a {
+	color: #0e76a8;
+}
+.card__social-link--ln:hover {
+	background: #0e76a8;
+	border: 1px solid #f7f7f7;
+}
+.card__social-link--ln:hover a {
+	color: #f7f7f7;
+}
+.card__social-link--gm {
+	border: 1px solid #DB4437;
+}
+.card__social-link--gm a {
+	color: #DB4437;
+}
+.card__social-link--gm:hover {
+	background: #DB4437;
+	border: 1px solid #f7f7f7;
+}
+.card__social-link--gm:hover a {
+	color: #f7f7f7;
+}
+.card__social-link--ig {
+	border: 1px solid #8a3ab9;
+}
+.card__social-link--ig a {
+	color: #8a3ab9;
+}
+.card__social-link--ig:hover {
+	background: #8a3ab9;
+	border: 1px solid #f7f7f7;
+}
+.card__social-link--ig:hover a {
+	color: #f7f7f7;
+}
+.card__social-link--tw {
+	border: 1px solid #00acee;
+}
+.card__social-link--tw a {
+	color: #00acee;
+}
+.card__social-link--tw:hover {
+	background: #00acee;
+	border: 1px solid #f7f7f7;
+}
+.card__social-link--tw:hover a {
+	color: #f7f7f7;
+}
+.card__button-group {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 100%;
+}
+.card__button {
+	padding: 15px 10px;
+	color: #1e1e1e;
+	font-size: 20px;
+	letter-spacing: 2px;
+	font-weight: 700;
+	margin-bottom: 15px;
+	text-decoration: none;
+	transition: .2s ease-in-out;
+}
+.card__button--portfolio {
+	background: #EAEBEA;
+	border: 2px solid #35AADB;
+}
+.card__button--portfolio:hover {
+	background: #35AADB;
+	border: 2px solid #35AADB;
+}
+.card__button--blog {
+	background: #EAEBEA;
+	border: 2px solid #38a502;
+}
+.card__button--blog:hover {
+	background: #38a502;
+	border: 2px solid #38a502;
 }
