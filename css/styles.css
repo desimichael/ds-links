@@ -6,3 +6,31 @@
 	justify-content: center;
 	align-items: center;		
 }
+.card {
+	height: 400px;
+	width: 350px;
+	background: #f7f7f7;
+	border-radius: 5px;
+	padding: 20px;
+	-webkit-box-shadow: 5px 5px 13px 0px rgba(0,0,0,0.67); 
+	box-shadow: 5px 5px 13px 0px rgba(0,0,0,0.67);
+}
+.card .card__user-img {
+	height: 70px;
+	width: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	border: 2px solid #5b7676;
+	border-radius: 50%;
+}
+.card .card__user-img img {
+	height: 100%;
+	width: 100%;
+	display: block;
+	object-fit: center;
+	object-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
