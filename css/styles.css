@@ -76,17 +76,17 @@
 .card__social-link--ln:hover a {
 	color: #f7f7f7;
 }
-.card__social-link--gm {
-	border: 1px solid #DB4437;
+.card__social-link--gh {
+	border: 1px solid #333333;
 }
-.card__social-link--gm a {
-	color: #DB4437;
+.card__social-link--gh a {
+	color: #333333;
 }
-.card__social-link--gm:hover {
-	background: #DB4437;
+.card__social-link--gh:hover {
+	background: #333333;
 	border: 1px solid #f7f7f7;
 }
-.card__social-link--gm:hover a {
+.card__social-link--gh:hover a {
 	color: #f7f7f7;
 }
 .card__social-link--ig {
